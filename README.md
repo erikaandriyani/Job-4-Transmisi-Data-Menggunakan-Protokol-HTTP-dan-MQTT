@@ -45,3 +45,9 @@ Keluaran (Thingspeak)
 Analisa : Pada percobaan ini kami menggunakan protokol HTTP/REST pada Thingspeak dalam membaca suhu menggunakan sensor DHT11. Di percobaan ini juga menggunakan WiFi. Ketika script di run dan benar, maka pada serial monitor (keluaran 1) akan muncul connecting to WiFi dan menampilkan suhu yang dibaca. Dan pada platform Thingspeak (keluaran 2) akan muncul grafik suhu dari pembacaan suhu yang ada di serial monitor. 
 
 **4. ESP NOW > IoT (MQTT + Cayene)**
+
+
+**KESIMPULAN**
+1) Percobaan Cayene dengan sensor suhu dan LED adalah percobaan untuk memonitoring suhu melalui website menggunakan protokol MQTT. Ketika ESP32 sudah tersambung dengan Cayene melalui WiFi yang dimasukan, maka hasil data sensor suhu akan terlihat di layar Cayene berapa derajat suhu yang sensor baca. Dalam Cayene juga bisa ditambahkan komponen lain seperti button untuk mengatur nyala/matinya LED.
+2) Percobaan Adafruit dengan sensor dan LED menggunakan suara adalah percobaan yang menginputkan suara melalui google assistant yang outputnya akan terlihat pada LED. Percobaan ini menggunakan IFTTT dan protokol MQTT. (Namun pada percobaan ini baru sampai pada menghubungkan ESP32 dengan Adafruit).
+3) Penggunaan Thingspeak dengan sensor DHT menggunakan protokol MQTT/REST merupakan percobaan yang menampilkan hasil baca sensor pada Thingspeak berupa grafik. Grafik tersebut akan secara otomatis berubah mengikuti pembacaa sensor suhu yang juga tertera nilainya pada serial monitor arduino.
