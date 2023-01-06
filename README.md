@@ -49,7 +49,7 @@ Keluaran (Thingspeak)
 
 Analisa : Pada percobaan ini kami menggunakan protokol HTTP/REST pada Thingspeak dalam membaca suhu menggunakan sensor DHT11. Di percobaan ini juga menggunakan WiFi. Ketika script di run dan benar, maka pada serial monitor (keluaran 1) akan muncul connecting to WiFi dan menampilkan suhu yang dibaca. Dan pada platform Thingspeak (keluaran 2) akan muncul grafik suhu dari pembacaan suhu yang ada di serial monitor. 
 
-**4. ESP NOW > IoT (MQTT + Cayene)**
+**4. ESP NOW > IoT (MQTT + Cayene)** (belum)
 
 
 **KESIMPULAN**
