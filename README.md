@@ -25,6 +25,11 @@ Keluaran 2 (Cayene)
 Keluaran 3 (Mengatur LED Melalui Button di Cayene)
 
 
+https://user-images.githubusercontent.com/118364435/211025724-23a1caf4-ef78-46f2-a015-2cb712b0e5d8.mp4
+
+
+
+
 Analisa : Pada percobaan ini, digunakan protokol MQTT dan paltform Cayene untuk menampilkan suhu dengan mengatur On/Off LED sensor dari Cayene itu sendiri. Di percobaan ini masih menggunakan WiFi untuk terhubung ke ESPnya. Pada keluaran 1 (serial monitor) didapatkan pesan bahwa ESP sudah terkoneksi ke WiFi yang dialamatkan dan terkoneksi ke mqtt.device.com. Maka di serial monitor akan tertera data suhu yang akan dikirimkan ke Cayene. Pada tampilan Cayene (Keluaran 2) akan terihat data suhu dan button LED. Data yang dikirimkan dari ESP Arduino akan masuk ke Cayene dan menampilkan data suhu yang dibaca oleh sensor. Dan ketika button pada Cayene di mati hidupkan, maka LED akan mati hidup juga sesuai button difungsikan. Keluaran LED ini akan lebih jelas dilihat pada keluaran 3.
 
 **2. ESP32 > Adafuit io + IFTTT (MQTT) > Sensor + LED (On/Off) > Suara > Google Assistant**
